@@ -15,7 +15,10 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  flex-wrap: wrap
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .content {
@@ -51,12 +54,6 @@ p {
   line-height: 1.5;
   margin-bottom: 10px;
   color: white;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
 }
 
 .content {
@@ -163,7 +160,7 @@ a:active { text-decoration: none; color: black;}
 
 .art-box {
   text-align: center;
-  width: calc(33.33% - 20px); /* Distribute 3 boxes per row with some spacing */
+  width: auto;
   margin-bottom: 20px;
 }
 
